@@ -47,12 +47,14 @@ graph TD
 
 # Estructura
 
+```text
 REDES_PFO3/
 │
 ├── cliente.py          # Emisor de tareas en formato JSON
 ├── servidor_central.py # Recepción de solicitudes y derivación interna
 ├── worker.py           # Procesamiento concurrente con hilos y almacenamiento
 └── README.md           # Guía explicativa del sistema
+```
 
 # Ejecución
 
